@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A369D"
+    tools:context=".WednesdayActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/pythonLab"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/btn_bg"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingTop="1dp"
+            android:text="PYTHON LAB (9-11)"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/idve"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/pythonLab"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/btn_bg"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingTop="1dp"
+            android:text="IDVE (11-12)"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/oops"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/idve"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/btn_bg"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingTop="1dp"
+            android:text="OOPS LECTURE (12-1)"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/dbmsLec"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/oops"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/btn_bg"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingTop="1dp"
+            android:text="DBMS LECTURE (2-3)"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/workshopLab"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/dbmsLec"
+            android:layout_marginHorizontal="70dp"
+            android:layout_marginBottom="72dp"
+            android:background="@drawable/btn_bg"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:paddingTop="1dp"
+            android:text="IT WORKSHOP LAB (3-5)"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
