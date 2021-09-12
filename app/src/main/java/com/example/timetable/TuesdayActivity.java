@@ -47,13 +47,14 @@ public class TuesdayActivity extends AppCompatActivity {
         binding.oopsLab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://meet.google.com/lookup/hxlm7dytnt?authuser=0&hs=179");
+                gotoUrl("https://meet.google.com/lookup/ez5a2hp6s5?authuser=0&hs=179");
 
             }
         });
 
 
     }
+
 
     private void gotoUrl(String s) {
         Uri uri = Uri.parse(s);
