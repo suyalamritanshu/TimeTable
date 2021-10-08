@@ -31,7 +31,7 @@ public class SaturdayActivity extends AppCompatActivity {
         binding.ps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://meet.google.com/lookup/eoq72v3ro4?authuser=0&hs=179");
+                gotoUrl("https://meet.google.com/lookup/eoq72v3ro4");
 
             }
         });

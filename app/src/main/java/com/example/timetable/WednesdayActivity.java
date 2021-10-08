@@ -22,21 +22,21 @@ public class WednesdayActivity extends AppCompatActivity {
         binding.pythonLab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://meet.google.com/lookup/dnnytwfbgf?authuser=0&hs=179");
-                
+                gotoUrl("https://meet.google.com/lookup/dnnytwfbgf");
+
             }
         });
         binding.idve.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://meet.google.com/lookup/holnfmbn3z?authuser=0&hs=179");
+                gotoUrl("https://meet.google.com/mze-fwrh-qej");
 
             }
         });
         binding.oops.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://meet.google.com/lookup/hxlm7dytnt?authuser=0&hs=179");
+                gotoUrl("https://meet.google.com/lookup/hxlm7dytnt");
 
             }
         });
@@ -44,7 +44,7 @@ public class WednesdayActivity extends AppCompatActivity {
         binding.dbmsLec.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://meet.google.com/lookup/df5oib425t?authuser=0&hs=179");
+                gotoUrl("https://meet.google.com/lookup/df5oib425t");
 
             }
         });
@@ -52,7 +52,7 @@ public class WednesdayActivity extends AppCompatActivity {
         binding.workshopLab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://meet.google.com/lookup/a5v6urijaq?authuser=0&hs=179");
+                gotoUrl("https://meet.google.com/oon-wqwm-ggk");
 
             }
         });

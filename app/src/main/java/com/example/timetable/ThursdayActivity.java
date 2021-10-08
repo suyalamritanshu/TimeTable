@@ -23,7 +23,7 @@ public class ThursdayActivity extends AppCompatActivity {
         binding.dbmsLab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://meet.google.com/lookup/ek7khgw6to?authuser=0&hs=179");
+                gotoUrl("https://meet.google.com/lookup/ek7khgw6to");
 
             }
         });
@@ -38,7 +38,7 @@ public class ThursdayActivity extends AppCompatActivity {
         binding.ps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://meet.google.com/lookup/eoq72v3ro4?authuser=0&hs=179");
+                gotoUrl("https://meet.google.com/lookup/eoq72v3ro4");
 
             }
         });
@@ -46,15 +46,14 @@ public class ThursdayActivity extends AppCompatActivity {
         binding.pythonTute.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://meet.google.com/lookup/dx6olueebf?authuser=0&hs=179");
-
+                gotoUrl("https://meet.google.com/lookup/dx6olueebf");
             }
         });
 
         binding.oopsLab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gotoUrl("https://meet.google.com/lookup/ez5a2hp6s5?authuser=0&hs=179");
+                gotoUrl("https://meet.google.com/lookup/ez5a2hp6s5");
 
             }
         });
